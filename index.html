@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natani Guna Sri Durgapriya Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Natani Guna Sri Durgapriya</h1>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About Me</a> |
+            <a href="#education">Education</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#resume">Resume Upload</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+
+            <p>
+                Hello! I am a student passionate about technology,
+                programming, artificial intelligence, and software development.
+            </p>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <article>
+                <p>
+                    I am an Artificial Intelligence student with a strong interest
+                    in Artificial Intelligence, Machine Learning, and Web Development.
+                </p>
+
+                <h3>Career Goals</h3>
+
+                <p>
+                    My goal is to become a skilled software engineer and contribute
+                    to innovative technology solutions.
+                </p>
+
+                <h3>Interests</h3>
+
+                <p>
+                    Coding, Problem Solving, Machine Learning,
+                    Prompt Engineering, and Cloud Technologies.
+                </p>
+            </article>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+
+            <table>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>Board/University</th>
+                    <th>Year</th>
+                    <th>Percentage/CGPA</th>
+                </tr>
+
+                <tr>
+                    <td>B.Tech CSE (AI)</td>
+                    <td>Chalapathi Institute of Technology</td>
+                    <td>JNTU</td>
+                    <td>2027</td>
+                    <td>8.8 CGPA</td>
+                </tr>
+
+                <tr>
+                    <td>Intermediate</td>
+                    <td>Sri Chaitanya Junior College</td>
+                    <td>State Board</td>
+                    <td>2023</td>
+                    <td>76%</td>
+                </tr>
+
+                <tr>
+                    <td>SSC</td>
+                    <td>Z.P.H. School</td>
+                    <td>State Board</td>
+                    <td>2021</td>
+                    <td>98%</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning Basics</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>🎬 Movie Magic (AWS Ticket Booking App)</h3>
+
+                <p>
+                    <strong>Technologies Used:</strong>
+                    HTML, CSS, JavaScript, AWS
+                </p>
+
+                <p>
+                    Movie Magic is an online movie ticket booking application that
+                    allows users to browse movies, select seats, and book tickets.
+                    The project uses AWS cloud services for deployment and hosting.
+                </p>
+
+                <a href="https://github.com/priyanatani34073407-spec/MovieMagic.git"
+                   target="_blank"
+                   class="project-btn">
+                    View Project
+                </a>
+            </article>
+
+            <article>
+                <h3>🤖 AI Resume Analyzer</h3>
+
+                <p>
+                    <strong>Technologies Used:</strong>
+                    Python, HTML, CSS, Artificial Intelligence
+                </p>
+
+                <p>
+                    AI Resume Analyzer is a smart application that analyzes resumes,
+                    identifies skills, and provides suggestions to improve resumes
+                    according to job requirements.
+                </p>
+
+                <a href="https://github.com/priyanatani34073407-spec/smart-resume-ai.git"
+                   target="_blank"
+                   class="project-btn">
+                    View Project
+                </a>
+            </article>
+        </section>
+
+        <!-- Resume Upload Section -->
+        <section id="resume">
+            <h2>📄 Resume Upload Form</h2>
+
+            <p>
+                Interested in my profile? Please submit your details
+                and upload your resume.
+            </p>
+
+            <form>
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required>
+
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required>
+
+                <label for="phone">Phone Number</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    pattern="[0-9]{10}"
+                    placeholder="Enter your phone number"
+                    required>
+
+                <label for="resumeFile">Upload Resume</label>
+                <input
+                    type="file"
+                    id="resumeFile"
+                    accept=".pdf,.doc,.docx"
+                    required>
+
+                <input type="submit" value="Upload Resume">
+            </form>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <div class="contact-buttons">
+
+                <a href="mailto:yourmail@gmail.com?subject=Portfolio Contact"
+                   class="contact-btn">
+                    📧 Email Me
+                </a>
+
+                <a href="tel:+919876543210"
+                   class="contact-btn">
+                    📞 Call Me
+                </a>
+
+            </div>
+
+            <form>
+                <label>Name</label>
+                <input type="text" required>
+
+                <label>Email</label>
+                <input type="email" required>
+
+                <label>Subject</label>
+                <input type="text" required>
+
+                <label>Message</label>
+                <textarea rows="5" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+        <!-- Social Profiles -->
+        <section>
+            <h2>Social Profiles</h2>
+
+            <p>
+                LinkedIn:
+                <a href="https://linkedin.com/in/gunasridurgapriya"
+                   target="_blank">
+                    Visit LinkedIn Profile
+                </a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/priyanatani34073407-spec"
+                   target="_blank">
+                    Visit GitHub Profile
+                </a>
+            </p>
+        </section>
+
+        <!-- Audio Section -->
+        <section>
+            <h2>Self Introduction Audio</h2>
+
+            <audio controls>
+                <source src="intro.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </section>
+
+        <!-- Video Section -->
+        <section>
+            <h2>Introduction Video</h2>
+
+            <video controls>
+                <source src="intro.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </section>
+
+        <!-- Google Maps -->
+        <section>
+            <h2>College Location</h2>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb="
+                width="600"
+                height="450"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 Natani Guna Sri Durgapriya.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
