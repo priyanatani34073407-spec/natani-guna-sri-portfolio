@@ -7,7 +7,6 @@ This is a responsive Personal Portfolio Website developed using HTML5. It showca
 The website serves as an online portfolio to present academic achievements, projects, and career objectives.
 
 ---
-
 ✨ Features
 
 - 🏠 Home section with introduction
